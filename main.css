@@ -52,16 +52,37 @@ li > a > span:hover {
 .headings {
     z-index: 10000;
     height: calc(100vh - 70px);
+    left: 0px;
 }
 
-.frontpage2{
-    min-height: 100vh;
+.aboutPage{
+    min-height: 40vh;
+    background-color: #1d1d1d;
+    font-family: "Fira Sans";
+    font-size: 20px;
+    color: lightgray;
+}
+.teamsPage{
+    min-height: 60vh;
     background-color: black;
 }
-.frontpage3{
+.teamPageHeading {
+    font-family: "Tungsten";
+    font-size: 70px;
+    color: white;
+}
+.teamPad {
+    padding-top: 2%;
+}
+.noticePage{
     height: 100vh;
     background-color: gray;
 }
+.contactPage{
+    min-height: 100vh;
+    background-color: black;
+}
+
 
 .mynav {
     border:none;
@@ -71,17 +92,8 @@ li > a > span:hover {
     margin: 0px !important;
 }
 
-.teampage {
-    font-family: "Tungsten";
-    font-size: 65px;
-    color: white;
-}
-.teamPad {
-    padding-top: 5%;
-}
-
 .para {
-    padding:4% 10px 10px 10px;
+    padding:2% 10px 10px 10px;
     font-family: "Fira Sans", "Tungsten";
     font-size: 23px;
     color: lightgray;
@@ -128,7 +140,7 @@ body {
 .carousel,
 .item,
 .active {
-    height: 100%;
+    height: calc(100vh - 70px);
 }
 
 .carousel-inner {
