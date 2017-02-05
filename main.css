@@ -6,27 +6,141 @@
     font-family: 'Fira Sans Light';
     src: url('fonts/firasans/FiraSans-Light.ttf');
 }
+@font-face{
+    font-family: 'Roboto Condensed';
+    src: url('fonts/roboto-condensed/RobotoCondensed-Regular.ttf');
+}
+@font-face{
+    font-family: 'Tungsten';
+    src: url('fonts/Tungsten-Medium.ttf');
+}
 
+body {
+    background-color: black;
+}
 
 .pad {
-    padding: 1% 10% 0 10%;
-}
-.myclass {
-    font-family: "Fira Sans", Helvetica, Arial, sans-serif;
-    color: lightgray;
-    font-size: large;
+    padding-top:10px;
 }
 .myfont {
     font-family: "Fira Sans", Helvetica, Arial, sans-serif;
     color: lightgray;
     font-weight: bold;
 }
-.always {
-    color:#08D671;
+.bigfont {
+    font-family: "Tungsten", "Fira Sans", Helvetica, Arial, sans-serif;
+    color: white;
+    font-size: 90px;
 }
-.mybrand {
-    font-size: xx-large;
+
+li > a > span:hover {
+    color:#007BC3;
 }
-span:hover {
-    color: #007bc3;
+
+.frontpage1{
+    height: calc(100vh - 70px);
+    background-color: #2e3233;
+}
+
+.heading {
+    line-height: 75px;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+}
+
+.headings {
+    z-index: 10000;
+    height: calc(100vh - 70px);
+}
+
+.frontpage2{
+    min-height: 100vh;
+    background-color: black;
+}
+.frontpage3{
+    height: 100vh;
+    background-color: gray;
+}
+
+.mynav {
+    border:none;
+    border-radius: 0px !important;
+    height: 70px;
+    padding:0px !important;
+    margin: 0px !important;
+}
+
+.teampage {
+    font-family: "Tungsten";
+    font-size: 65px;
+    color: white;
+}
+.teamPad {
+    padding-top: 5%;
+}
+
+.para {
+    padding:4% 10px 10px 10px;
+    font-family: "Fira Sans", "Tungsten";
+    font-size: 23px;
+    color: lightgray;
+}
+
+
+
+.footer {
+    height: 30px;
+    background-color: black;
+    font-family: "Roboto Condensed";
+    font-size: 14px;
+    color: lightgray;
+}
+
+::-webkit-scrollbar {
+    width: 7px;
+}
+
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    background-color: black;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: gray;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5);
+}
+
+.gutter-0.row {
+    margin-right: 0;
+    margin-left: 0;
+}
+.gutter-0 > [class^="col-"]{
+    padding-right: 0;
+    padding-left: 0;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+.carousel,
+.item,
+.active {
+    height: 100%;
+}
+
+.carousel-inner {
+    height: 100%;
+}
+
+.fill {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
 }
