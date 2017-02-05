@@ -1,0 +1,32 @@
+@font-face{
+    font-family: 'Fira Sans';
+    src: url('fonts/firasans/FiraSans-Regular.ttf');
+}
+@font-face{
+    font-family: 'Fira Sans Light';
+    src: url('fonts/firasans/FiraSans-Light.ttf');
+}
+
+
+.pad {
+    padding: 1% 10% 0 10%;
+}
+.myclass {
+    font-family: "Fira Sans", Helvetica, Arial, sans-serif;
+    color: lightgray;
+    font-size: large;
+}
+.myfont {
+    font-family: "Fira Sans", Helvetica, Arial, sans-serif;
+    color: lightgray;
+    font-weight: bold;
+}
+.always {
+    color:#08D671;
+}
+.mybrand {
+    font-size: xx-large;
+}
+span:hover {
+    color: #007bc3;
+}
