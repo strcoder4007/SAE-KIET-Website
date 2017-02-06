@@ -19,6 +19,10 @@ body {
     background-color: black;
 }
 
+a:hover {
+    text-decoration: none;
+}
+
 .pad {
     padding-top:10px;
 }
@@ -75,14 +79,18 @@ li > a > span:hover {
     padding-top: 2%;
 }
 .noticePage{
-    height: 100vh;
+    height: 60vh;
     background-color: gray;
 }
 .contactPage{
-    min-height: 100vh;
-    background-color: black;
+    min-height: 10vh;
+    background-color: #1d1d1d;
 }
 
+.customFontSize {
+    font-size: 20px !important;
+    line-height: 20px;
+}
 
 .mynav {
     border:none;
@@ -93,13 +101,40 @@ li > a > span:hover {
 }
 
 .para {
+    padding:2% 15px 15px 2%;
+    font-family: "Fira Sans", "Tungsten";
+    font-size: 20px;
+    color: lightgray;
+}
+
+.teamPara {
     padding:2% 10px 10px 10px;
     font-family: "Fira Sans", "Tungsten";
     font-size: 23px;
     color: lightgray;
 }
 
+.fa {
+    font-size: 40px;
+    padding: 10px;
+    color: white;
+}
 
+.fb:hover {
+    color: #3C5A99;
+}
+.linkedin:hover{
+    color: #0077B5;
+}
+.youtube:hover {
+    color: red;
+}
+.mail:hover {
+    color: #DD5347;
+}
+.insta:hover{
+    color: #3C5A99;
+}
 
 .footer {
     height: 30px;
